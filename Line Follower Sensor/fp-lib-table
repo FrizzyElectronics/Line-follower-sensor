@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name cyclophone)(type KiCad)(uri C:\Users\MrSensei\Desktop\cyclophone-master\kicad\cyclophone.pretty)(options "")(descr ""))
+  (lib (name Connectors_JST)(type KiCad)(uri C:\Users\MrSensei\Desktop\Connectors_JST.pretty-master)(options "")(descr ""))
+  (lib (name LEDs)(type KiCad)(uri C:\Users\MrSensei\Desktop\LEDs.pretty-master)(options "")(descr ""))
+)
