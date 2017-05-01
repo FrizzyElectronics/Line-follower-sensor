@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
 
   (general
     (links 19)
     (no_connects 0)
-    (area 100.9626 96.52 121.1374 142.9774)
+    (area 102.424999 97.424999 120.075001 134.175001)
     (thickness 1.6)
     (drawings 12)
     (tracks 113)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.6096)
+    (last_trace_width 0.254)
     (user_trace_width 0.1524)
     (user_trace_width 0.3048)
     (user_trace_width 0.6096)
@@ -278,6 +278,11 @@
       (net 1 VCC))
     (pad 2 thru_hole circle (at 2.54 2.54) (size 1.51 1.51) (drill 0.51) (layers *.Cu *.Mask F.SilkS)
       (net 7 "Net-(U6-Pad1)"))
+    (model "../../../../../home/david/Escritorio/hola/kutupahne 3d models/kicad-3d-kutuphane-arsivi/files/pot_s63p.wrl"
+      (at (xyz 0.1 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 5815F8BD)
@@ -358,6 +363,11 @@
     (pad hole thru_hole circle (at 0 -1.9) (size 2.5 2.5) (drill 2.5) (layers *.Cu *.Mask B.SilkS))
     (pad hole thru_hole circle (at 0 1.9) (size 2.5 2.5) (drill 2.5) (layers *.Cu *.Mask B.SilkS))
     (pad hole thru_hole circle (at -4.65 -2.45) (size 1 1) (drill 1) (layers *.Cu *.Mask B.SilkS))
+    (model ../../../../../home/david/Escritorio/Github/Line-follower-sensor/Design/tcrt5000.wrl
+      (at (xyz -0.2 0.13 -0.1))
+      (scale (xyz 10 10 10))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 5815F8D4)
