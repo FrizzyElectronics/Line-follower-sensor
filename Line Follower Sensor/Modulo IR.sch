@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Modulo IR-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,11 +35,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Line Follower Sensor"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "V1.0"
+Comp "Frizzy Electronics"
+Comment1 "Ionut Morariu"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -134,7 +135,7 @@ F 3 "" H 5350 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT U7
+L POT-RESCUE-Modulo_IR U7
 U 1 1 5815DD66
 P 6000 2800
 F 0 "U7" H 6000 2700 50  0000 C CNN
@@ -211,7 +212,7 @@ F 3 "" H 7950 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED U9
+L LED-RESCUE-Modulo_IR U9
 U 1 1 5815EB38
 P 7950 3200
 F 0 "U9" H 7950 3300 50  0000 C CNN
