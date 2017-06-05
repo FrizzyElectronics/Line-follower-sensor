@@ -3,7 +3,7 @@
   (general
     (links 19)
     (no_connects 0)
-    (area 102.540999 97.460999 119.963001 130.135669)
+    (area 138.318457 76.6696 168.005543 117.094001)
     (thickness 1.6)
     (drawings 8)
     (tracks 84)
@@ -137,7 +137,7 @@
     (uvia_drill 0.508)
   )
 
-  (module Potentiometers:Potentiometer_Trimmer-Suntan-TSR-3386P (layer F.Cu) (tedit 59074E34) (tstamp 5815F8B7)
+  (module Potentiometers:Potentiometer_Trimmer-Suntan-TSR-3386P (layer F.Cu) (tedit 5935AE8B) (tstamp 5815F8B7)
     (at 155.702 91.313 180)
     (path /5815DD66)
     (fp_text reference U7 (at 2.54 -5.842 180) (layer F.SilkS) hide
@@ -153,11 +153,11 @@
     (fp_line (start 7.305 4.765) (end -2.225 4.765) (layer Dwgs.User) (width 0.15))
     (fp_line (start -2.225 4.765) (end -2.225 -4.765) (layer Dwgs.User) (width 0.15))
     (fp_circle (center 2.54 -0.875) (end 4.115 0) (layer Dwgs.User) (width 0.15))
-    (pad 3 thru_hole circle (at 5.08 0 180) (size 1.51 1.51) (drill 0.51) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole circle (at 5.08 0 180) (size 1.51 1.51) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 2 GNDREF))
-    (pad 1 thru_hole rect (at 0 0 180) (size 1.51 1.51) (drill 0.51) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.51 1.51) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 1 VCC))
-    (pad 2 thru_hole circle (at 2.54 2.54 180) (size 1.51 1.51) (drill 0.51) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole circle (at 2.54 2.54 180) (size 1.51 1.51) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 7 "Net-(U6-Pad1)"))
     (model "../../../../../home/david/Escritorio/hola/kutupahne 3d models/kicad-3d-kutuphane-arsivi/files/pot_s63p.wrl"
       (at (xyz 0.1 0 0))
