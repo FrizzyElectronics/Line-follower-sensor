@@ -138,15 +138,15 @@
     (uvia_drill 0.508)
   )
 
-  (module Potentiometers:Potentiometer_Trimmer_Bourns_3296W (layer F.Cu) (tedit 58826ECB) (tstamp 5A773861)
+  (module Potentiometers:Potentiometer_Trimmer_Bourns_3296W (layer F.Cu) (tedit 5A917390) (tstamp 5A773861)
     (at 150.622 93.98 180)
     (descr "Spindle Trimmer Potentiometer, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
     (tags "Spindle Trimmer Potentiometer   Bourns 3296W")
     (path /5815DD66)
-    (fp_text reference U7 (at -2.54 -3.66 180) (layer F.SilkS)
+    (fp_text reference U7 (at -2.54 -3.66 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at -2.54 3.67 180) (layer F.Fab)
+    (fp_text value 10k (at -2.54 3.67 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 0.955 1.15) (end 0.955 2.305) (angle -182) (layer F.SilkS) (width 0.12))
@@ -518,11 +518,11 @@
   )
 
   (module Grape:atom_small (layer B.Cu) (tedit 0) (tstamp 5A789896)
-    (at 158.623 107.315)
-    (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
+    (at 158.7881 107.4674 180)
+    (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
-    (fp_text value LOGO (at 0.75 0) (layer B.SilkS) hide
+    (fp_text value LOGO (at 0.75 0 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy 0.036576 3.177312) (xy 0.066713 3.176523) (xy 0.090319 3.174814) (xy 0.110477 3.171845)
@@ -1282,7 +1282,10 @@
       (xy -3.05495 1.225397) (xy -3.006513 1.238605) (xy -2.963342 1.241237) (xy -2.923536 1.239758)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_line (start 147.066 111.252) (end 159.004 111.252) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 147.066 82.042) (end 159.258 82.042) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 163.2712 105.8164) (end 149.1996 105.8164) (angle 90) (layer Dwgs.User) (width 0.2))
+  (gr_arc (start 159.258 108.712) (end 161.798 108.966) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 144.526 84.582) (end 144.526 108.712) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 161.798 108.966) (end 161.798 84.582) (angle 90) (layer Edge.Cuts) (width 0.15))
   (dimension 17.272 (width 0.3) (layer Dwgs.User)
@@ -1309,14 +1312,11 @@
     (arrow2a (pts (xy 167.132 78.74) (xy 166.545579 79.866504)))
     (arrow2b (pts (xy 167.132 78.74) (xy 167.718421 79.866504)))
   )
-  (gr_line (start 147.066 82.042) (end 159.258 82.042) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 147.066 84.582) (end 144.526 84.582) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 147.066 111.252) (end 159.004 111.252) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 147.066 108.712) (end 147.066 111.252) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 159.258 108.712) (end 161.798 108.966) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 159.258 84.582) (end 159.258 82.042) (angle 90) (layer Edge.Cuts) (width 0.15))
 
-  (segment (start 153.1808 107.188) (end 153.1808 104.6292) (width 0.254) (layer F.Cu) (net 1) (status 400000))
+  (segment (start 153.1808 107.188) (end 153.1808 104.6292) (width 0.254) (layer F.Cu) (net 1))
   (segment (start 153.1808 104.6292) (end 153.162 104.648) (width 0.254) (layer F.Cu) (net 1) (tstamp 5A7F0E14))
   (segment (start 160.02 94.93) (end 160.02 96.266) (width 0.254) (layer F.Cu) (net 1))
   (segment (start 160.462 84.516) (end 160.462 86.36) (width 0.254) (layer F.Cu) (net 1) (tstamp 5A773B11))
@@ -1364,8 +1364,8 @@
   (segment (start 155.194 92.456) (end 159.446 92.456) (width 0.254) (layer F.Cu) (net 4) (tstamp 5A773AB5))
   (segment (start 159.446 92.456) (end 160.02 93.03) (width 0.254) (layer F.Cu) (net 4) (tstamp 5A773AB8))
   (segment (start 153.67 103.8225) (end 153.797 103.9495) (width 0.254) (layer B.Cu) (net 4) (tstamp 59072D97))
-  (segment (start 151.1808 107.188) (end 151.1808 106.1212) (width 0.254) (layer B.Cu) (net 5) (status 400000))
-  (segment (start 155.067 104.7242) (end 155.067 103.9495) (width 0.254) (layer B.Cu) (net 5) (tstamp 5A7F0E1A) (status 800000))
+  (segment (start 151.1808 107.188) (end 151.1808 106.1212) (width 0.254) (layer B.Cu) (net 5))
+  (segment (start 155.067 104.7242) (end 155.067 103.9495) (width 0.254) (layer B.Cu) (net 5) (tstamp 5A7F0E1A))
   (segment (start 154.432 105.3592) (end 155.067 104.7242) (width 0.254) (layer B.Cu) (net 5) (tstamp 5A7F0E19))
   (segment (start 151.9428 105.3592) (end 154.432 105.3592) (width 0.254) (layer B.Cu) (net 5) (tstamp 5A7F0E18))
   (segment (start 151.1808 106.1212) (end 151.9428 105.3592) (width 0.254) (layer B.Cu) (net 5) (tstamp 5A7F0E17))
