@@ -299,7 +299,7 @@
       (net 1 VCC))
     (pad 3 thru_hole oval (at 4 0) (size 1.2 1.7) (drill 0.7) (layers *.Cu *.Mask)
       (net 2 GNDREF))
-    (model ../../../../../home/david/Escritorio/hola/walter/conn_jst-ph/s3b-ph-kl.wrl
+    (model ${KIPRJMOD}/3d_models/s3b-ph-kl.wrl
       (at (xyz 0.08 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -413,7 +413,7 @@
     (pad hole thru_hole circle (at 0 -1.9) (size 2.5 2.5) (drill 2.5) (layers *.Cu *.Mask B.SilkS))
     (pad hole thru_hole circle (at 0 1.9) (size 2.5 2.5) (drill 2.5) (layers *.Cu *.Mask B.SilkS))
     (pad hole thru_hole circle (at -4.65 -2.45) (size 1 1) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (model ../../../../../home/david/Escritorio/Github/Line-follower-sensor/Design/tcrt5000.wrl
+    (model ${KIPRJMOD}/3d_models/tcrt5000.wrl
       (at (xyz -0.2 0.13 -0.1))
       (scale (xyz 10 10 10))
       (rotate (xyz 0 0 90))
