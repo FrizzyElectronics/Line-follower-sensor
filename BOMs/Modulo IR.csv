@@ -1,0 +1,14 @@
+"Id";"Identificador";"Empaquetado";"Cantidad";"Identificación";"Suministrador y ref";
+1;"U7";"Potentiometer_Trimmer_Bourns_3296W";1;"10k";;;
+2;"U1";"SOIC-8-N";1;"LM358N";;;
+3;"U5";"R_0805";1;"20K";;;
+4;"U8";"JST_PH_S3B-PH-K_03x2.00mm_Angled";1;"CON3_ET";;;
+5;"U3";"R_0805";1;"1K";;;
+6;"U6";"R_0805";1;"10K";;;
+7;"U10";"R_0805";1;"100nF";;;
+8;"U12";"TCRT5000";1;"TCRT5000";;;
+9;"U13";"R_0805";1;"100R";;;
+10;"U9";"LED_0805";1;"LED";;;
+11;"REF**,REF**";"MountingHole_3.2mm_M3";2;"MountingHole_3.2mm_M3";;;
+12;"G***";"atom_small";1;"LOGO";;;
+13;"G***";"web";1;"LOGO";;;
