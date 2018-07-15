@@ -99,7 +99,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory CAM/))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
